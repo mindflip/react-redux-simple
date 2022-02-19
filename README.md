@@ -10,8 +10,8 @@ uses of react-redux
 
 - npm i redux react-redux
 - set `Provider`, `store` in the index.js
-- implement actions
-  - action is a function which returns type and data as an object
+- implement action creators
+  - action creater is a function which returns an action (type and data as an object)
 - implement reducers
   - reducer is a function stored in `store`
   - return data from action
